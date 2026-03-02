@@ -17,8 +17,8 @@
             <div class="row row1">
                 <button onclick="document.querySelector('#display').value=' ' ">Ac</button>
                 <button onclick="document.querySelector('#display').value=document.querySelector('#display').value.toString().slice(0,-1)" id="Del">Del</button>
-                <button onclick="document.querySelector('#display').value='%'">%</button>
-                <button onclick="document.querySelector('#display').value='/'">/</button>
+                <button onclick="document.querySelector('#display').value+='%'">%</button>
+                <button onclick="document.querySelector('#display').value+='/'">/</button>
             </div>
             <div class="row row2">
                 <button onclick="document.querySelector('#display').value+='7'">7</button>
@@ -49,4 +49,5 @@
 
 
 </body>
+
 </html>
